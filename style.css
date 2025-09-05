@@ -45,6 +45,7 @@
                        }
                        
                        img {
+        
                            max-width: 100%;
                            display: block
                        }
@@ -167,6 +168,7 @@
                        }
                        
                        .avatar {
+                           background-image: src("assets/avatar.png");
                            aspect-ratio: 1/1;
                            border-radius: 18px;
                            background: linear-gradient(135deg, color-mix(in oklab, var(--brand) 22%, transparent), color-mix(in oklab, var(--accent) 18%, transparent));
